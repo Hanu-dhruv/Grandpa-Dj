@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.dj-panel {
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.red-text {
+    color: red;
+}
+
+.red-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#canvas {
+    display: block;
+    background-color: #fff;
+    border: 2px solid red;
+    margin-top: 20px;
+    max-width: 400px;
+    max-height: 400px;
+}
